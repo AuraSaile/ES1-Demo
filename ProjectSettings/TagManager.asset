@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Boule 3
+  - Test
+  - Bille 4
+  - "D\xE9but"
   layers:
   - Default
   - TransparentFX

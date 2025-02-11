@@ -26,9 +26,12 @@ public class Objetrouge : MonoBehaviour
 
 void OnTriggerEnter(Collider other)
         {
+            GameObject test = GameObject.FindGameObjectWithTag("Test");
+
             if(other.gameObject.CompareTag("Boule 3")){
             Debug.Log("Collision avec Boule 3 détectée !");
             Destroy(gameObject);
+            Destroy(test);
         }
         
         }
